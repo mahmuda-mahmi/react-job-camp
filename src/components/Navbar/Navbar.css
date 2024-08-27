@@ -1,0 +1,22 @@
+.menu a{
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px!important;
+    border: 1px solid #111;
+}
+
+.menu a.active, .menu a:active, .menu a:focus{
+    background-color: white!important;
+    color: #1A1919!important;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px!important;
+    border: 1px solid #18181b;
+    box-shadow: 5px 5px 0px 1px #000;
+}
+
+.menu a:hover{
+    background-color: transparent;
+    border: 1px solid #888;
+}
