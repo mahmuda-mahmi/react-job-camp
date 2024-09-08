@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     const li = (
         <>
-        <li><NavLink to='/statistics'>Statistics</NavLink></li>
-        <li><NavLink to='/applied-jobs'>Applied Jobs</NavLink></li>
-        <li><NavLink to='/blog'>Blog</NavLink></li>
+        <li><NavLink to='/react-job-camp/statistics'>Statistics</NavLink></li>
+        <li><NavLink to='/react-job-camp/applied-jobs'>Applied Jobs</NavLink></li>
+        <li><NavLink to='/react-job-camp/blog'>Blog</NavLink></li>
         </>
     )
     return (

@@ -15,30 +15,30 @@ import ViewDetails from './components/ViewDetails/ViewDetails';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-job-camp",
     element: <Router></Router>,
     children: [
       {
-        path: '/',
+        path: '/react-job-camp',
         element: <Home></Home>,
       },
       {
-        path: '/statistics',
+        path: '/react-job-camp/statistics',
         element: <Statistics></Statistics>,
         loader: () => fetch('jobs.json'),
       },
       {
-        path: '/applied-jobs',
+        path: '/react-job-camp/applied-jobs',
         element: <AppliedJobs></AppliedJobs>,
         loader: () => fetch('jobs.json'),
       },
       {
-        path: '/blog',
+        path: '/react-job-camp/blog',
         element: <Blog></Blog>,
         loader: () => fetch('blogs.json'),
       },
       {
-        path: '/job/:id',
+        path: '/react-job-camp/job/:id',
         element: <ViewDetails></ViewDetails>,
         loader: () => fetch('jobs.json'),
       },

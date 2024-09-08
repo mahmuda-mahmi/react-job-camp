@@ -20,7 +20,7 @@ const Job = ({ job }) => {
                 <p className='flex items-center gap-2'><CiDollar />{salary}</p>
             </div>
             <div>
-                <NavLink to={`/job/${id}`}><button className='flex text-white bg-black px-5 py-2 border hover:bg-white hover:text-black hover:border-black duration-300'>View Details</button></NavLink>
+                <NavLink to={`/react-job-camp/job/${id}`}><button className='flex text-white bg-black px-5 py-2 border hover:bg-white hover:text-black hover:border-black duration-300'>View Details</button></NavLink>
             </div>
             
         </div>
