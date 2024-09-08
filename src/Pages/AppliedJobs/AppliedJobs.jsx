@@ -9,7 +9,7 @@ const AppliedJobs = () => {
     const [displayJobs, setDisplayJobs] = useState([]);
     useEffect(() => {
         const storedJobs = localStorage.getItem("job-application");
-        const filterJobs = jobs.filter(job => storedJobs.includes(job.id));
+        const filterJobs = jobs?.filter(job => storedJobs.includes(job.id));
         setAppliedJobs(filterJobs);
         setDisplayJobs(filterJobs);
     }, [])
@@ -45,7 +45,7 @@ const AppliedJobs = () => {
             </div>
             <div className='grid grid-cols-2 gap-8'>
                 {
-                    displayJobs.map(job => <Job key={job.id} job={job}></Job>)
+                    displayJobs?.map(job => <Job key={job.id} job={job}></Job>)
                 }
             </div>
         </div>

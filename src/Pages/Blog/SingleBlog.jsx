@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Card } from "flowbite-react";
 
 const SingleBlog = ({ blog }) => {
     const { image, url, title } = blog;
@@ -17,8 +15,5 @@ const SingleBlog = ({ blog }) => {
     );
 };
 
-SingleBlog.propTypes = {
-
-};
 
 export default SingleBlog;

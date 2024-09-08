@@ -13,7 +13,7 @@ const Blog = () => {
             </div>
             <div className='grid grid-cols-3 gap-x-5 gap-y-10'>
                 {
-                    blogs.map(blog => <SingleBlog key={blog.id} blog={blog}></SingleBlog>)
+                    blogs?.map(blog => <SingleBlog key={blog.id} blog={blog}></SingleBlog>)
                 }
             </div>
 
