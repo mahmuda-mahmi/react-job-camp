@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 const Router = () => {
     return (
         <div>
-            <div className='w-[85%] mx-auto'>
+            <div>
                 <Navbar></Navbar>
                 <Outlet></Outlet>
             </div>

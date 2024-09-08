@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const banner = () => {
     return (
-        <div className='grid grid-cols-[70%_30%] gap-4 gap-y-4 items-center'>
+        <div className='grid grid-cols-[70%_30%] gap-4 gap-y-4 items-center w-[85%] mx-auto'>
             <div className='text-left'>
                 <h1 className='font-extrabold text-6xl text-[#1A1919] leading-tight'>One Step
                     <br />
